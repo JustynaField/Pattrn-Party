@@ -1,5 +1,5 @@
 // document.ready(() => {
-//   loadFirstTab()
+//   $('#tab-container1').addClass('pageload')
 // })
 
 
