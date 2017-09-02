@@ -54,11 +54,6 @@ hr {
 }
 
 /*accordion tabs*/
-
-.conatiner {
-  padding: 30px;
-}
-
 .accordion-container {
   margin: 50px 40px;
   min-height: 400px;
@@ -102,12 +97,6 @@ button:focus {
   border-right: 1px solid #D1D2D3;
 }
 
-/*.pageload {
-  background-color: #fff;
-  border-top: 1px solid #D1D2D3;
-  border-right: 1px solid #D1D2D3;
-}*/
-
 .tab2:focus, .tab3:focus {
   border-top: 1px solid #D1D2D3;
   border-right: 1px solid #D1D2D3;
@@ -124,15 +113,20 @@ button:focus {
 }
 
 .content-area {
-  padding: 30px;
+  width: 100%
 }
 
-.article-wrap {
+.tab-heading {
+  display:none;
+}
+
+.art-container {
   display: flex;
   justify-content: space-between;
   top: 0;
   left: 0;
   padding-bottom: 20px;
+
 }
 
 .image {
@@ -141,17 +135,15 @@ button:focus {
   margin: 20px 20px 0 0 ;
 }
 
+
 .paragraphs {
-  padding: 20px;;
+  margin: auto;
+  padding: 20px;
 }
 
 h4 {
   font-weight: bold;
   margin-bottom: 15px;
-}
-
-.inside-art {
-  margin-bottom: 20px;
 }
 
 .paragraphs p {
@@ -164,7 +156,35 @@ h4 {
   color: #fff;
   display: block;
   margin: auto;
-margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+
+	.tabs {
+		display: none;
+	}
+
+	.cell-tab {
+		background-color: #ccc;
+		color: #fff;
+		border-top: 1px solid #333;
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+  .art-container {
+    flex-direction: column;
+  }
+
 }
 
 

@@ -1,25 +1,46 @@
-// document.ready(() => {
-//   $('#tab-container1').addClass('pageload')
-// })
-
-
-$('.tab1').on('click', () => {
-  $('.container').addClass('hidden')
-  $('#tab-container1').removeClass('hidden')
+$(document).ready(() => {
+  // $(".tab_content").hide();
+  // $(".tab_content:first").show();
+    $('#tab1').removeClass('hidden')
 })
 
+$('.tab1').on('click', () => {
+  $('.tab-content').addClass('hidden')
+  $('#tab1').removeClass('hidden')
+})
 
 $('.tab2').on('click', () => {
-  $('.container').addClass('hidden')
-  $('#tab-container2').removeClass('hidden')
+  $('.tab-content').addClass('hidden')
+  $('#tab2').removeClass('hidden')
 })
 
 $('.tab3').on('click', () => {
-  $('.container').addClass('hidden')
-  $('#tab-container3').removeClass('hidden')
+  $('.tab-content').addClass('hidden')
+  $('#tab3').removeClass('hidden')
 })
 
 $('.tab4').on('click', () => {
-  $('.container').addClass('hidden')
-  $('#tab-container4').removeClass('hidden')
+  $('.tab-content').addClass('hidden')
+  $('#tab4').removeClass('hidden')
+})
+
+//cell phone:
+$('#cell-tab1').on('click', () => {
+  $('.tab-content').addClass('hidden')
+  $('#tab1').removeClass('hidden')
+})
+
+$('#cell-tab2').on('click', () => {
+  $('.tab-content').addClass('hidden')
+  $('#tab2').removeClass('hidden')
+})
+
+$('#cell-tab3').on('click', () => {
+  $('.tab-content').addClass('hidden')
+  $('#tab3').removeClass('hidden')
+})
+
+$('#cell-tab4').on('click', () => {
+  $('.tab-content').addClass('hidden')
+  $('#tab4').removeClass('hidden')
 })
