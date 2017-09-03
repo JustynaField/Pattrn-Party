@@ -1,7 +1,5 @@
 $(document).ready(() => {
-  // $(".tab_content").hide();
-  // $(".tab_content:first").show();
-    $('#tab1').removeClass('hidden')
+  $('#tab1').removeClass('hidden')
 })
 
 $('.tab1').on('click', () => {
