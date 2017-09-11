@@ -187,7 +187,7 @@ h4 {
   border: 1px solid #D1D2D3;
   height: 300px;
   margin: 10px;
-  flex: 10 5 30.6666%;
+  flex: 10 5 280px;
 }
 
 .card-title{
@@ -203,7 +203,49 @@ h4 {
 }
 
 .card1, .card7 {
-  flex: 10 5 63.7%;
+  flex: 10 5 620px;
+}
+
+/*HEADER BAR*/
+
+.header-bar {
+  background-color: #c7c7c7;
+  height: 90px;
+  margin: 50px 10px 50px 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-img {
+  height: 65px;
+  border: 1px solid #a3a3a3;
+  border-radius: 50%;
+  margin: 12px 20px;
+}
+
+.nav-ul {
+  margin-top: 35px;
+}
+
+.nav-link {
+  display: inline;
+  padding: 15px;
+}
+
+.search-bar {
+  margin: 25px 15px 0 0;
+  height: 35px;
+  width: 180px;
+  border: 1px solid #a3a3a3;
+  padding-left: 45px;
+  font-size: 16px;
+  font-weight: 300;
+  background: url(./magnifying-glass.png) no-repeat 15px;
+  background-color: #e8e8e8;
+}
+
+input {
+
 }
 
 @media screen and (max-width: 800px) {
@@ -233,10 +275,6 @@ h4 {
 }
 
 @media screen and (max-width: 645px) {
-
-  .card2, .card3, .card4, .card5 {
-    display: none;
-  }
 
   .divider {
     width: 60%;
