@@ -42,3 +42,9 @@ $('#cell-tab4').on('click', () => {
   $('.tab-content').addClass('hidden')
   $('#tab4').removeClass('hidden')
 })
+
+
+// HEADER BAR
+$('.img-menu').on('click', () => {
+  $('#drop-nav').toggleClass('active')
+})
